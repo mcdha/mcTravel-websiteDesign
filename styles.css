@@ -1,163 +1,64 @@
-/* NAVBAR AND HOME CODES */
+/* SECTION 1 */
 
-.navTrav {
-    margin: 0;
-    
-}
-
-.backgroundImage {
+.navMc {
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #logo {
-    width: 130px;
-    height: 80px;
-    z-index: 1;
-}
-
-.logoBox {
-    padding-left: 100px;
-    z-index: 1;
-}
-
-@media (max-width: 576px) {
-    .logoBox {
-        padding-left: 0px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .logoBox {
-        padding-left: 0px;
-    }
-}
-
-
-.nav-item {
-    padding-left: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    z-index: 1;
-}
-
-.navbar-nav {
-    padding-left: 600px;
-}
-
-@media (max-width: 576px) {
-    .navbar-nav {
-        padding-left: 0px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .navbar-nav {
-        padding-left: 0px;
-    }
+    width: 10rem;
 }
 
 .bg-overlay {
     background: linear-gradient(rgba(44, 114, 226, 0.7), rgba(0, 0, 0, 0.7)), url("https://w0.peakpx.com/wallpaper/952/156/HD-wallpaper-plane-artwork-plane-artist-artwork-digital-art-artstation.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
     color: #fff;
-    height: 600px;
-    padding-top: 10px;
-    margin: 0;
+    background-size: cover;
 }
 
-h1 {
-    color: #eaeaff;
-    font-size: 80px;
+.h1-first {
     font-weight: bold;
-    font-family: 'Merienda', cursive;
+    font-family: "Merienda", sans-serif;
+    font-size: 60px;
 }
 
-/* OFFERS CODES */
+/* SECTION 2 */
 
-#home {
-    margin-top: 100px;
-    text-align: center;
-}
-
-h2 {
+.h2-first {
     font-weight: bold;
+    font-family: "Mandali", sans-serif;
     font-size: 40px;
-    font-family: 'Merienda', cursive;
-    color: rgba(0, 98, 255, 0.82);
-    margin-top: 50px;
+    color:#0b5dd7b5;
 }
 
-#offers {
-    text-align: center;
-    padding: 100px;
+.ptag-first {
+    color: rgba(51, 51, 51, 0.815);
 }
 
-.iconsBox {
-    background-color: #ececfa;
-    border-radius: 10%;
+.h5-first {
+    font-family: "Mandali", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 0.815);
 }
 
-.offersHead {
-    padding-bottom: 50px;
+.bi-telephone {
+    color:#0b5ed7;
 }
 
-.iconsPaddings {
-    margin: 10px;
-    padding: 20px 50px 20px 50px;
-    border-radius: 10%;
-    font-size: 30px;
-    color: rgba(0, 98, 255, 0.82);
-}
-
-.iconsPadding {
-    margin: 10px;
-    padding: 20px 50px 20px 50px;
-    border-radius: 10%;
-    font-size: 30px;
-    color: #ececfa;
+.bi-bag {
+    color:#0b5ed7;
 }
 
 .bi-calendar-week {
-    background-color:rgba(0, 98, 255, 0.653);;
+    color: rgba(51, 51, 51, 0.815);
 }
 
-.context {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding: 0;
-}
-
-p {
-    font-size: larger ;
-    font-family: 'Mandali', sans-serif;
-}
-
-h5 {
-    font-family: 'Merienda', cursive;
-    color: #000000af;
-}
-
-.pads {
-    margin-bottom: 20px;
-}
-/* BENEFITS CODES */
-
-#benefits {
-    padding: 20px 100px 20px 150px;
-}
-
-.imgBox1 {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.img1 {
-    width: 50%;
-    height: 100%;
-    border-radius: 10%;
+.bi-cash-coin {
+    color: rgba(51, 51, 51, 0.815);
 }
