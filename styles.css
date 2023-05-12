@@ -1,4 +1,9 @@
 /* SECTION 1 */
+/* @media only screen and (max-width: 768px) {
+    #logo {
+      margin: 0%;
+    }
+  } */
 
 .navMc {
     position: absolute;
@@ -10,7 +15,8 @@
 }
 
 #logo {
-    width: 10rem;
+    width: 7rem;
+    margin-left: 0;
 }
 
 .bg-overlay {
