@@ -33,24 +33,27 @@
     font-weight: bold;
     font-family: "Merienda", sans-serif;
     font-size: 60px;
+   
 }
 
-.ptag-second {
-    font-family: 'Poppins', sans-serif;
+.ptag-first {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
 }
 
 /* SECTION 2 */
 
 .h2-first {
     font-weight: bold;
-    font-family: "Mandali", sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 40px;
     color: rgba(51, 51, 51, 0.815);
 }
 
 .ptag-second {
     color: rgba(51, 51, 51, 0.815);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
 }
 
 .h5-first {
@@ -76,7 +79,29 @@
     color: rgba(51, 51, 51, 0.815);
 }
 
+@media only screen and (max-width: 320px) {
+    .rowSection2 {
+
+    }
+  }
+
 /* SECTION 3 */
+
+.h2-benefits {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+    .h2-benefits, .h5-benefits { 
+       text-align: center;
+     }
+   } 
+
+.colorSection3 {
+    color: whitesmoke;
+}
 
 .imgBox1 {
     width: 50%;
@@ -104,14 +129,85 @@
     width: 100%;
     height: 100%;
     justify-content: center;
+    border-radius: 10%;
 }
 
 .benefits {
-    background: linear-gradient(rgba(0, 98, 255, 0.747), rgba(0, 0, 0, 0.674)), url("/images/section3Background.jpg");
+    background: linear-gradient(rgba(0, 98, 255, 0.747), rgba(0, 0, 0, 0.674));
 }
 /* SECTION 4 CAROUSEL */
+.h2-carousel {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgba(51, 51, 51, 0.815);
+}
 
 .carousel-caption {
-    background: linear-gradient(rgba(108, 165, 255, 0.806), rgba(0, 0, 0, 0.895));
+    background: linear-gradient(rgba(108, 165, 255, 0.806), rgba(0, 0, 0, 0.406));
+}
+
+/* @media only screen and (max-width: 320px) {
+    #carouselExampleCaptions {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+   .carousel-width {
+      padding: 0;
+      width: 100%;
+      margin: 0%;
+    }
+  } */
+
+/* SECTION 5 */
+
+.imgBox2 {
+    width: 50%;
+    height: 90%;
+}
+
+.img2 {
+    width: 90%;
+    height: 90%;
+    justify-content: center;
     border-radius: 10%;
+}
+
+@media only screen and (max-width: 576px) {
+    .imgBox2 {
+        width: 70%;
+        margin-left: 15%;
+     }
+   } 
+
+@media only screen and (max-width: 576px) {
+    .img2 { 
+       width: 100%;
+     }
+   } 
+
+.withUs {
+    background: linear-gradient(rgba(0, 98, 255, 0.747), rgba(0, 0, 0, 0.674));
+   }
+
+.h2-withus {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 576px) {
+    .h2-withus, .p-withus { 
+      text-align: center;
+     }
+   } 
+
+.textBoxSection5 {
+    margin-top: 5%;
+    padding-right: 5%;
+    color: whitesmoke;
 }
