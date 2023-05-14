@@ -10,8 +10,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(44, 114, 226, 0.7), rgba(0, 0, 0, 0.226));
-    opacity: 1;
+    /* background: linear-gradient(rgba(44, 114, 226, 0.7), rgba(0, 0, 0, 0.226));
+    opacity: 1; */
 }
 
 #logo {
@@ -20,7 +20,7 @@
 }
 
 .bg-overlay {
-    background: linear-gradient(rgba(44, 114, 226, 0.7), rgba(0, 0, 0, 0.7)), url("https://w0.peakpx.com/wallpaper/952/156/HD-wallpaper-plane-artwork-plane-artist-artwork-digital-art-artstation.jpg");
+    background: linear-gradient(rgba(35, 90, 179, 0.747), rgba(0, 0, 0, 0.938)), url("https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Philippines-ElNido-482040306-Freeartist-copy.jpg");
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -35,17 +35,22 @@
     font-size: 60px;
 }
 
+.ptag-second {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* SECTION 2 */
 
 .h2-first {
     font-weight: bold;
     font-family: "Mandali", sans-serif;
     font-size: 40px;
-    color:#0b5dd7b5;
+    color: rgba(51, 51, 51, 0.815);
 }
 
-.ptag-first {
+.ptag-second {
     color: rgba(51, 51, 51, 0.815);
+    font-family: 'Poppins', sans-serif;
 }
 
 .h5-first {
@@ -70,3 +75,39 @@
 .bi-cash-coin {
     color: rgba(51, 51, 51, 0.815);
 }
+
+/* SECTION 3 */
+
+.imgBox1 {
+    width: 50%;
+    padding: 0;
+   
+}
+
+@media only screen and (max-width: 576px) {
+    .imgBox1 {
+      width: 90%;
+      padding-left: 10%;
+      padding-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .imgBox1 {
+      width: 90%;
+      padding-left: 10%;
+      padding-top: 20px;
+    }
+  }
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.benefits {
+    background: linear-gradient(rgba(0, 98, 255, 0.747), rgba(0, 0, 0, 0.626)), url("/images/section3Background.jpg");
+}
+/* SECTION 4 CAROUSEL */
+
