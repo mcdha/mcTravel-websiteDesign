@@ -107,7 +107,11 @@
 }
 
 .benefits {
-    background: linear-gradient(rgba(0, 98, 255, 0.747), rgba(0, 0, 0, 0.626)), url("/images/section3Background.jpg");
+    background: linear-gradient(rgba(0, 98, 255, 0.747), rgba(0, 0, 0, 0.674)), url("/images/section3Background.jpg");
 }
 /* SECTION 4 CAROUSEL */
 
+.carousel-caption {
+    background: linear-gradient(rgba(108, 165, 255, 0.806), rgba(0, 0, 0, 0.895));
+    border-radius: 10%;
+}
