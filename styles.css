@@ -80,10 +80,17 @@
 }
 
 @media only screen and (max-width: 320px) {
+    .offersSection2 {
+        padding: 20%;
+        font-size: smaller;
+    }
+  }
+
+/* @media only screen and (max-width: 320px) {
     .rowSection2 {
 
     }
-  }
+  } */
 
 /* SECTION 3 */
 
