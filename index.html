@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Explore</title>
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href=
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
@@ -22,9 +28,11 @@
       </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark p-3 navMc">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark p-3 navMc">
             <div class="container">
-                <a href="#" class="navbar-brand"><img id="logo" src="/images/travelLogo.png" alt="Travel Logo" srcset=""></a>
+                <a href="#" class="navbar-brand"><img id="logo" src="/images/travelLogo1.png" alt="Travel Logo" srcset=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,57 +57,117 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-    
-    <!-- <nav class="navbar navbar-expand-lg navbar-light navMc">        
-        <div class="logoBox"><img id="logo" src="travelLogo.png" alt="Travel Logo" srcset=""></div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a style="color: #eaeaff"  onMouseOver="this.style.color='rgba(0, 98, 255, 0.82)'"
-            onMouseOut="this.style.color='#eaeaff'" class="nav-link active" aria-current="page" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: #eaeaff"  onMouseOver="this.style.color='rgba(0, 98, 255, 0.82)'"
-            onMouseOut="this.style.color='#eaeaff'" class="nav-link active" aria-current="page" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: #eaeaff"  onMouseOver="this.style.color='rgba(0, 98, 255, 0.82)'"
-            onMouseOut="this.style.color='#eaeaff'" class="nav-link active" aria-current="page" href="#">PACKAGES</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: #eaeaff"  onMouseOver="this.style.color='rgba(0, 98, 255, 0.82)'"
-            onMouseOut="this.style.color='#eaeaff'" class="nav-link active" aria-current="page" href="#">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: #eaeaff"  onMouseOver="this.style.color='rgba(0, 98, 255, 0.82)'"
-            onMouseOut="this.style.color='#eaeaff'" class="nav-link active" aria-current="page" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: #eaeaff"  onMouseOver="this.style.color='rgba(0, 98, 255, 0.82)'"
-            onMouseOut="this.style.color='#eaeaff'" class="nav-link active" aria-current="page" href="#">CONTACT</a>
-          </li>
-        </ul>
+</nav>
+
+<section class="getReady bg-overlay d-flex align-items-center justify-content-center flex-column">
+        <h1 class="h1-first text-center">Get Ready For Your Next Trip</h1>
+        <p class="ptag-first pt-5 pb-5 text-center">We always make our customer happy <br> by providing choices as many as possible for their love palces to go.</p>
+
+        <button type="button" class="btn1 btn btn-primary btn-lg rounded-5 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#ModalForm">Get Started
+          <span class="bg-light ms-2 d-flex align-items-center justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-fill text-primary" viewBox="0 0 16 16">
+              <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+            </svg>
+          </span>
+        </button>
+
+      <div class="modal fade" id="ModalForm" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                  <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="myform bg-light">
+                      <h1 class="text-center h1-loginform">Login Form</h1>
+                      <form>
+                          <div class="mb-3 mt-4">
+                              <label for="exampleInputEmail2" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputPassword2" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword2">
+                          </div>
+                          <button type="submit" class="btn mt-3 login-btn"><a href="afterlogin.html">LOGIN</button></a>
+                          <p class="ptag-loginform">Not a member? <a href="#" data-bs-target="#ModalForm1" data-bs-toggle="modal">Signup now</a></p>
+                      </form>
+                  </div>
+              </div>
+            </div>
+          </div>
       </div>
-  </nav> -->
 
-    <section class="getReady bg-overlay d-flex align-items-center justify-content-center flex-column text-center">
-        <h1 class="h1-first">Get Ready For Your Next Trip</h1>
-        <p class="ptag-first pt-5 pb-5">We always make our customer happy by <br> providing choices as many as possible for their love palces to go.</p>
-        <button class="btn btn-lg btn-primary">Get Started</button>
-    </section>
+      <div class="modal fade" id="ModalForm1" tabindex="-1" aria-labelledby="ModalFormLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="myform bg-light">
+                    <h1 class="text-center h1-loginform">Sign Up</h1>
+                    <form>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputEmail1" class="form-label">Full name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <a href=""><button type="submit" class="btn mt-3 login-btn"  data-bs-dismiss="#ModalForm1" aria-label="Close">SIGN UP</button></a> 
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <section>
+      <div class="pictures-below">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="hover-overlay hover-zoom">
+              <img src="images/banaueCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="hover-overlay hover-zoom">
+              <img src="images/boracayCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="hover-overlay hover-zoom">
+              <img src="images/palawanCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="hover-overlay hover-zoom">
+              <img src="images/bascoCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4" class="hover-overlay hover-zoom">
+              <img src="images/caramoanCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5" class="hover-overlay hover-zoom">
+            <img src="images/chocolatehillsCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6" class="hover-overlay hover-zoom">
+            <img src="images/hinatuanCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7" class="hover-overlay hover-zoom">
+            <img src="images/mayonvolcanoCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8" class="hover-overlay hover-zoom">
+            <img src="images/mtpulagCarousel.jpg" class="d-block w-100">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="9" class="hover-overlay hover-zoom">
+            <img src="images/sunkencemeteryCarousel.jpg" class="d-block w-100">
+          </li>
+          </ol>
+      </div>
+</section>
+
+<section id="Offers">
         <div class="container text-center">
             <div>
                 <h2 class="h2-first pt-5">Our Offers</h2>
             <p class="ptag-second pt-2">We offer places all over the philippines to suit on your favorite adventure <br> that make your field trip happier.</p>
             </div>
             <div class="row row-offers">
-                <div class="col-lg-3 col-md-6 col-sm-6 pt-5">
+                <div class="col-3 col-lg-3 col-md-6 col-sm-6 pt-5">
 
              <!-- Button trigger modal -->
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -111,7 +179,6 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="staticBackdropLabel">Costumer Support</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       <p>Provides context about customers, conversations, and integrations. Most businesses in the market claim they’re the best. But here’s what makes mcTravel truly stand apart.</p>
@@ -124,11 +191,11 @@
                 </div>
               </div>
               <div>
-                 <h5 class="h5-first">Customer Support</h5>
+                 <h5 class="h5-first pt-3">Customer Support</h5>
               </div>  
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 pt-5">
+                <div class="col-3 col-lg-3 col-md-6 col-sm-6 pt-5">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
                       <i class="bi-calendar-week fs-2"></i>
@@ -140,7 +207,6 @@
                         <div class="modal-content">
                           <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">Easy Booking</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <p>We make it easier for everyone to experience the philippines. Book now and we can process as soon as possible your booking easily by mcTravel.</p>
@@ -153,11 +219,11 @@
                       </div>
                     </div>
                     <div>
-                        <h5 class="h5-first">Easy Booking</h5>
+                        <h5 class="h5-first pt-3">Easy Booking</h5>
                     </div> 
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 pt-5">
+                <div class="col-3 col-lg-3 col-md-6 col-sm-6 pt-5">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                       <i class="bi-bag fs-2"></i>
@@ -169,7 +235,6 @@
                         <div class="modal-content">
                           <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">Buy with Confidence</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <p>Buy With Confidence is operated solely by local authority. This means all checking and monitoring of booking is done directly by us, not by third parties or private companies.</p>
@@ -182,11 +247,11 @@
                       </div>
                     </div>
                     <div>
-                        <h5 class="h5-first">Buy with Confidence</h5>
+                        <h5 class="h5-first pt-3">Buy with Confidence</h5>
                     </div>  
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 pt-5">
+                <div class="col-3 col-lg-3 col-md-6 col-sm-6 pt-5">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
                       <i class="bi-cash-coin fs-2"></i>
@@ -198,7 +263,6 @@
                         <div class="modal-content">
                           <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">Best Price Guarantee</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <p>Search and compare rates on other companies and find the best trip for your holidays. Book h with real guest reviews and 24/7 customer service! Great Prices. View Our Deals. Flights to 5,00+ cities. No Hidden Fees</p>
@@ -211,17 +275,15 @@
                       </div>
                     </div>
                     <div>
-                        <h5 class="h5-first">Best Price Guarantee</h5>
+                        <h5 class="h5-first pt-3">Best Price Guarantee</h5>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+</section>
 
-
-
-    <section class="benefits mt-5">
-        <div class="container pt-5 pb-5">
+<section id="Benifits" class="benefits mt-5">
+        <div class="container pt-4">
             <div class="row pb-5">
                 <div class="colorSection3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h2 class="h2-benefits">See Some Benefits Joining Us</h2>
@@ -234,62 +296,15 @@
                         <h5 class="h5-benefits">Award Winning Service</h5>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe error voluptatum autem nulla facere, exercitationem necessitatibus fuga id iste, quidem, blanditiis aperiam fugit. Magnam dolorem accusantium quae magni error?
                     </p>
-
-                    <p class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <h5 class="h5-benefits">Global Coverage</h5>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit saepe error voluptatum autem nulla facere, exercitationem necessitatibus fuga id iste, quidem, blanditiis aperiam fugit. Magnam dolorem accusantium quae magni error?
-                    </p>
                 </div>
-                <div class="imgBox1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="imgBox1 col-lg-6 col-md-6 col-sm-12">
                         <img class="img1" src="/images/section3image2.png">
                 </div>
             </div>
         </div>
-    </section>
-
-<section class="container pt-5 pb-5 carousel-width">
-  <h2 class="h2-carousel text-center">Hey! Let's Explore Travelling all Over the Philippines</h2>
-  <div id="carouselExampleCaptions" class="carousel slide pt-5" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/images/boracayCarousel.jpg" class="d-block w-100 imgCarouselbackground" alt="...">
-        <!-- <div class="carousel-caption d-none d-md-block">
-          <h5>Boracay</h5>
-          <p>Boracay, one of the top Islands in the Philippines, is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset.</p>
-        </div> -->
-      </div>
-      <div class="carousel-item">
-        <img src="/images/banaueCarousel.jpg" class="d-block w-100 imgCarouselbackground" alt="...">
-        <!-- <div class="carousel-caption d-none d-md-block">
-          <h5>Banaue Rice Terraces</h5>
-          <p>The Banaue Rice Terraces are located on the mountains of Ifugao and were carved there about 2,000 years ago by the ancestors of the present day Philippines .</p>
-        </div> -->
-      </div>
-      <div class="carousel-item">
-        <img src="/images/palawanCarousel.jpg" class="d-block w-100 imgCarouselbackground" alt="...">
-        <!-- <div class="carousel-caption d-none d-md-block">
-          <h5>Palawan</h5>
-          <p>Palawan is long and narrow and trends northeast-southwest between the South China and Sulu seas.</p>
-        </div> -->
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 </section>
 
-<section>
+<section id="Withus">
   <div class="withUs">
     <div class="container">
       <div class="row py-5">
@@ -299,7 +314,7 @@
         <div class="col-lg-6 col-md-6 col-sm-6 textBoxSection5">
           <h2 class="h2-withus">Explore With Us Today</h2>
           <p class="p-withus">October 02, 2023</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis quasi adipisci quam non voluptate quod, tempora aliquid soluta, sequi, perspiciatis quos ex deserunt iste. Cumque illo porro dolorem alias placeat.</p>
+          <p>Are you planning a vacation around the Philippines for the first time?  Don’t know which of the 7,107 islands to choose from?  Have you been saving up for a 2-week vacation and want to make the most out of it? Or maybe you’ve traveled the Philippine Islands and want to discover more and go to somewhere you’ve never been to yet?</p>
           <button class="btn btn-lg btn-primary">Read More</button>
         </div>
       </div>
@@ -307,8 +322,8 @@
   </div>
 </section>
 
-<section>
-  <div class="container p-5">
+<section id="Update">
+  <div class="container p-3">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm pt-5">
         <h2 class="h2-update">Get Update About Our Latest News</h2>
@@ -331,11 +346,11 @@
   </div>
 </section>
 
-<section class="section-footer py-5">
+<section id="Footer" class="section-footer pb-4">
   <div class="container container-footer">
     <div class="row row-footer">
 
-      <div class="col-lg-3 col-md-3 col-sm-12">
+      <div class="col-12 col-lg-3 col-md-12 col-sm-12">
         <div class="imgBox4">
           <img class="img4" src="images/travelLogo.png" alt="" srcset="">
         </div>
@@ -346,7 +361,7 @@
         <a href=""><i class="bi bi-linkedin icons-footer p-1"></i></a>
       </div>
 
-  <div class="li1-footer col-lg-3 col-md-3 col-sm-12">
+  <div class="li1-footer col-4 col-lg-3 col-md-4 col-sm-12">
     <h4>Quick links</h4>
     <ul>
       <li><a href="#">About Our Company</a></li>
@@ -356,7 +371,7 @@
     </ul>
 </div> 
 
-  <div class="li2-footer col-lg-3 col-md-3 col-sm-12">
+  <div class="li2-footer col-4 col-lg-3 col-md-4 col-sm-12">
     <h4>Company</h4>
     <ul>
       <li><a href="#">Our Testimonials</a></li>
@@ -366,7 +381,7 @@
     </ul>
 </div> 
 
-  <div class="li3-footer col-lg-3 col-md-3 col-sm-12">
+  <div class="li3-footer col-4 col-lg-3 col-md-4 col-sm-12">
     <h4>Contact Us</h4>
     <ul>
       <li><a href="#">Mc. Dharnel Pagaragan</a></li>
@@ -378,8 +393,12 @@
     </div>
   </div>
 </section>
-    
+   
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
